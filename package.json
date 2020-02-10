@@ -8,9 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "lint": "eslint 'src/**/*.ts'",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm run lint",
-    "preversion" : "npm run lint"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint",
+    "preversion": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -18,11 +18,18 @@
   },
   "author": "owleks",
   "license": "ISC",
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "bugs": {
     "url": "https://github.com/Owleks/redux-state-helper.git/issues"
   },
-  "keywords": ["react", "redux", "state", "helper"],
+  "keywords": [
+    "react",
+    "redux",
+    "state",
+    "helper"
+  ],
   "homepage": "https://github.com/Owleks/redux-state-helper.git#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.16.0",
