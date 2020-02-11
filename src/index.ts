@@ -1,6 +1,6 @@
 import { IAction, TReducerFn } from '../index';
 
-export default class OwlStateHelper<T> {
+export default class StateHelper<T> {
   private reducerName: string;
 
   private readonly defaultReducerFn: TReducerFn<T> = (state: T): T => state;
